@@ -16,39 +16,39 @@ and open the template in the editor.
             
             <div class="content-box">
                 <h3 class="text-center">Formulário de Cadastro</h3>
-        <form>
+                <form method="POST" action="insertClient.phpp">
             <div class="row">
             <div class="col-12 col-md-4">
             <div class="form-group">
                 <label for="nome">Nome</label>
-                <input type="text" class="form-control" id="nome" aria-describedby="homeHelp" placeholder="Seu nome completo">
+                <input type="text" class="form-control" id="nome"  name="nome" aria-describedby="homeHelp" placeholder="Seu nome completo">
             </div>
             </div>
             <div class="col-12 col-md-8">
             <div class="form-group">
                 <label for="nome">Usuário</label>
-                <input type="text" class="form-control" id="usuario" aria-describedby="usuarioHelp" placeholder="Seu usuário">
+                <input type="text" class="form-control" id="usuario" name="usuario" aria-describedby="usuarioHelp" placeholder="Seu usuário">
                 
             </div>
             </div>
             <div class="col-12 col-md-8">
             <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Seu email">
                 
             </div>
             </div>
             <div class="col-6 col-md-6">    
             <div class="form-group">
                 <label for="senha">Senha</label>
-                <input type="password" class="form-control" id="senha" aria-describedby="pwdHelp" placeholder="Senha">
+                <input type="password" class="form-control" id="senha" name="senha" aria-describedby="pwdHelp" placeholder="Senha">
                 
                 </div>
             </div>
             <div class="col-6 col-md-6">   
             <div class="form-group">
                 <label for="confsenha">Confirme a senha</label>
-                <input type="password" class="form-control" id="confsenha" aria-describedby="pwdHelp" placeholder="Senha">
+                <input type="password" class="form-control" id="confsenha" name="confSenha" aria-describedby="pwdHelp" placeholder="Senha">
                 
             </div>
             </div>

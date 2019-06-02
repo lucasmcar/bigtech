@@ -22,7 +22,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Área do cliente</a>
             <div class="dropdown-menu bg-orange" aria-labelledby="dropdown01">
-                <a class="dropdown-item" id="cadastro" href="cliente/cadastre.php?cod=1">Cadastre-se</a>
+                <a class="dropdown-item" id="cadastro" href="cliente/cadastre.php">Cadastre-se</a>
               <a class="dropdown-item" href="#">Login</a>
               
             </div>
